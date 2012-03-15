@@ -21,7 +21,7 @@
 	<div id="menu">
 		<ul>
 			<li class="current_page_item"><a href="#">Home</a></li>
-			<li><a href="#">Sign Up</a></li>
+			<li><a href="signup.jsp">Sign Up</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
@@ -37,12 +37,7 @@
 							&nbsp;&bull;&nbsp;</p>
 						<div class="entry">
 							<p><img src="styles/images/img03.jpg" width="186" height="186" alt="" class="alignleft border" />
-							Welcome to Reds vs. Greens! The idea of this online Cloud Application was born out of the banter of Wednesday Night Football. Players pledge allegiance to the jersey, be it red or green, and give it their all on the field of battle. The idea of this app is to add to that banter. Create your profile, pledge to your team, play the game. </p>
-						<%
-							for(int i =0; i <3; i++){ %>
-								<p>This is an example of a loop <br/></p> <% 
-							}	
-						%>
+							Welcome to Reds vs. Greens! The idea of this online Cloud Application was born out of the banter of Wednesday Night Football. Players pledge allegiance to the jersey, be it red or green, and give it their all on the field of battle. The idea of this app is to add to that banter. <a href="signup.jsp">Create your profile</a>, pledge to your team, play the game. </p>
 						
 						<p>Todays Date: <%= new java.util.Date()%>.</p>
 							
@@ -61,7 +56,7 @@
 						<li>
 							<h2>Categories</h2>
 							<ul>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="signup.jsp">Sign Up</a></li>
 								<li><a href="#">Next Match</a></li>
 								<li><a href="#">The Teams</a></li>
 								<li><a href="#">Man of the Match Hall of Fame</a></li>
